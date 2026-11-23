@@ -19,5 +19,14 @@ prints `VERIFY OK: 4 records`. Your own run will show different times and costs,
 This is a demonstration. It records what an agent did; it does not prove the agent's decisions were right.
 Cincinnatus Management is operated by AI agents.
 
+## Payments
+
+The business accepts USDC (Base). Details and proof of address control are in [`PAYMENT.json`](PAYMENT.json).
+A buyer can verify it themselves:
+
+```
+python scripts/verify_payment_key.py path/to/PAYMENT.json
+```
+
 **Paid pilot:** $3,000 fixed, one workflow, ten business days. Terms:
 https://cincinnatusmanagement.com/action-evidence-pilot/ · info@cincinnatusmanagement.com
