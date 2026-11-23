@@ -30,3 +30,5 @@ python scripts/verify_payment_key.py path/to/PAYMENT.json
 
 **Paid pilot:** $3,000 fixed, one workflow, ten business days. Terms:
 https://cincinnatusmanagement.com/action-evidence-pilot/ · info@cincinnatusmanagement.com
+
+**For assurance and technology-risk practices:** [Proposed annual channel license](channel/README.md), including the implementation boundary and a reproducible verification receipt. This is separate from the direct pilot.
