@@ -1,0 +1,10 @@
+{
+  "note": "Reference rates for the demo. In a paid pilot these are replaced with the buyer's own measured rates and sources.",
+  "machine_watts": 120,
+  "usd_per_kwh": 0.147,
+  "cooling_multiplier": 1.333,
+  "hardware_usd_per_hour": 0.0627,
+  "internet_usd_per_hour": 0.0989,
+  "model_usd_per_1m_in": 3.0,
+  "model_usd_per_1m_out": 15.0
+}

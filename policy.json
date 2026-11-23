@@ -1,0 +1,13 @@
+{
+  "policy_id": "demo-readonly-v1",
+  "agent": "cincinnatus-demo-agent",
+  "purpose": "Read public software-project metadata. No writes, no other hosts.",
+  "max_bytes": 200000,
+  "allow": {
+    "http_get": [
+      {"host": "api.github.com", "path_prefix": "/repos/python/cpython"},
+      {"host": "api.github.com", "path_prefix": "/repos/torvalds/linux"}
+    ]
+  },
+  "default": "deny"
+}

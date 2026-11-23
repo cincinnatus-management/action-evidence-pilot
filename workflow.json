@@ -1,0 +1,6 @@
+[
+ {"type": "http_get", "url": "https://api.github.com/repos/python/cpython", "why": "read public repository metadata"},
+ {"type": "http_get", "url": "https://api.github.com/repos/torvalds/linux", "why": "read public repository metadata"},
+ {"type": "http_get", "url": "https://example.org/", "why": "OUT OF POLICY: host not on allow list, must be denied"},
+ {"type": "write_file", "path": "C:/anywhere/notes.txt", "why": "OUT OF POLICY: policy is read-only, must be denied"}
+]
