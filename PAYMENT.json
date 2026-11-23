@@ -1,0 +1,7 @@
+{
+  "address": "0x88AC4FB7610cE63BB77Ad348416CF129fBCc4de1",
+  "message": "Cincinnatus Management LLC controls this address to receive payment of its invoices. Address: 0x88AC4FB7610cE63BB77Ad348416CF129fBCc4de1. Website: https://cincinnatusmanagement.com | Repo: https://github.com/cincinnatus-management/action-evidence-pilot | Issued: 2026-11-23T19:58:15Z | This signature proves control of the private key for this address. Verify with scripts/verify_payment_key.py in the repository.",
+  "signature": "0x4aad0294cfbb118537ebf91d84968bcb5f679c256f433a51c04c70d8c0665f622a9e0e478ebb5c1481eb4a98d15ea45853104d651bff3ca11a84ee533f41f21701",
+  "issued_utc": "2026-11-23T19:58:15Z",
+  "note": "Proof of control: signature recovers to the address. Network: EVM (invoice rail: USDC on Base)."
+}
