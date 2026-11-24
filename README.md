@@ -4,6 +4,8 @@ A small recorder from Cincinnatus Management LLC. It runs an AI agent's actions 
 and writes one hash-chained record per action: what was asked and why, whether the policy allowed it, what it cost,
 what came back, and the SHA-256 of the evidence. The verifier checks that the saved records and referenced files match their recorded hashes.
 
+[Run the partner evaluation kit](evaluation/README.md) to export the published records in a network-disabled container, review two local MCP tool decisions, and keep your own receipt.
+
 [Open the procurement replay pack](replay/README.md) to check the published sample offline and see what it does and does not demonstrate.
 
 [Evaluate a local MCP tool gate](adapters/mcp/README.md) to request two repository artifacts under a written policy and verify the allowed and denied records. The optional adapter uses the MCP Python SDK.
