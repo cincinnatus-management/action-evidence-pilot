@@ -8,6 +8,8 @@ what came back, and the SHA-256 of the evidence. The verifier checks that the sa
 
 [Open the procurement replay pack](replay/README.md) to check the published sample offline and see what it does and does not demonstrate.
 
+[Observe a decision before a file read](prospective/README.md): pause a new local run, retain its decision hash, then release the read and verify the result. This is separate from the historical receipts.
+
 [Evaluate a local MCP tool gate](adapters/mcp/README.md) to request two repository artifacts under a written policy and verify the allowed and denied records. The optional adapter uses the MCP Python SDK.
 
 The original four-action demo below uses the Python 3 standard library only.
