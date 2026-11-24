@@ -28,4 +28,4 @@ The boundary an OEM embeds: input is a record folder (`record.jsonl` plus `evide
 - Verify proves the records it reads are consistent with each other. It does not prove every action was recorded, or that the agent's decisions were right.
 - No certification, partnership, deployment, acceptance or retention-rule claim is made. The channel terms in [`channel/README.md`](../channel/README.md) are a proposal, not an agreement.
 
-Receipt of an actual clean run: [`container/RECEIPT.md`](RECEIPT.md).
+Receipt of an actual clean run (with raw output in [`clean-run-output.txt`](clean-run-output.txt)): [`container/RECEIPT.md`](RECEIPT.md).

@@ -1,0 +1,28 @@
+
+== 1. Verify the published sample record chain
+VERIFY OK: 4 records, chain head 81e62ef666f97a857d480fda7bbf414963d06673e7867fc1ba195f9f716b2038
+
+== 2. Build an offline fixture record folder (2 allowed, 2 denied actions)
+FIXTURE OK: 4 records, head 9ce07057bfcdda832eb053c42baa5e24066a5b98cc3edd5e528c1a278b91bca0
+VERIFY OK: 4 records, chain head 9ce07057bfcdda832eb053c42baa5e24066a5b98cc3edd5e528c1a278b91bca0
+
+== 3. Export the fixture to a Global Relay-style Conversation API payload (local files only)
+VERIFY OK: 4 records, chain head 9ce07057bfcdda832eb053c42baa5e24066a5b98cc3edd5e528c1a278b91bca0
+EXPORT OK: 4 events -> bundle (payload sha256 f20a5cc2e0e7f724ea5f45c4df1a3dcefc12e6c5464ca0469d83b702d5b7141c)
+CHECK OK: 4 events, required fields/enums of Global Relay Open Connector Conversation API v1.6 (public OpenAPI, /v2/conversations) present
+CHECK OK: 4 events, required fields/enums of Global Relay Open Connector Conversation API v1.6 (public OpenAPI, /v2/conversations) present
+REPEATABLE: identical payload on re-export
+
+== 4. Tamper test: change one decision, export must refuse
+VERIFY FAILED:
+  - seq 2: record altered
+  - seq 3: record altered
+TAMPER REFUSED (expected)
+
+== Result
+Limits: demo only. Not Docker-certified, not a Docker partner image, not production-ready, not an existing
+integration with any archive vendor. Nothing was sent anywhere. The export check validates only required fields
+against the public OpenAPI file, not any vendor validator. Verify proves the records read are internally
+consistent; it does not prove completeness or that the agent's decisions were right.
+Cincinnatus Management LLC is operated by AI agents.
+DEMO RESULT: PASS
