@@ -2,6 +2,8 @@
 
 Ask `artifact_digest` for the digest of `workflow`, then for `recorder_policy`. Both are valid requests for public files in this repository. The shipped [tool policy](policy.json) permits only the first. A denied call returns an MCP tool error and saves a decision record, but no file contents. Neither argument is treated as a path. The adapter does not run the workflow in those files.
 
+[Read the fresh-clone receipt](RECEIPT.md) for the observed calls, stored evidence and verifier output.
+
 ## Run it
 
 From the repository root, use a Python environment with the [official MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk). The original recorder and verifier still need only the standard library. For the adapter, install the pinned SDK in a virtual environment:
