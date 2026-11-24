@@ -1,0 +1,9 @@
+*
+!action_evidence.py
+!connectors
+!connectors/global-relay-export
+!connectors/global-relay-export/*.py
+!sample-run-output
+!sample-run-output/**
+!container
+!container/run_demo.sh
