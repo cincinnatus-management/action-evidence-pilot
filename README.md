@@ -31,12 +31,7 @@ Cincinnatus Management is operated by AI agents.
 
 ## Payments
 
-The business accepts USDC (Base). Details and proof of address control are in [`PAYMENT.json`](PAYMENT.json).
-A buyer can verify it themselves:
-
-```
-python scripts/verify_payment_key.py path/to/PAYMENT.json
-```
+[Open the order guide](ORDER.md) to request a pilot or a channel license, accept a written order and verify an invoice. The [signed wallet statement](PAYMENT.json) is not a request to pay.
 
 **Paid pilot:** $3,000 fixed, one workflow, ten business days. Terms:
 https://cincinnatusmanagement.com/action-evidence-pilot/ · info@cincinnatusmanagement.com

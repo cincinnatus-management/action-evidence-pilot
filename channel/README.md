@@ -31,4 +31,6 @@ The [original recorder commit](https://github.com/cincinnatus-management/action-
 
 ## Order record — complete before activation
 
+[Open the order guide](../ORDER.md) for the channel inquiry, written acceptance and invoice verification steps.
+
 Record the licensee's legal name, permitted practice, protected services, covered files and revisions, start and renewal dates, invoice terms, written-notice addresses, and authorized representatives for both parties. Record any negotiated changes, including data handling or special support, in the same order. Both parties must accept the written order before paid deployment. Procurement contact: **info@cincinnatusmanagement.com**. Do not include client evidence or private data in an inquiry.
