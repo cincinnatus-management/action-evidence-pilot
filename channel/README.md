@@ -6,6 +6,8 @@
 
 [Open the procurement replay pack](../replay/README.md) to verify the bundled records offline and see where the demo falls short of the Canada guide’s scope.
 
+The [optional local MCP adapter](../adapters/mcp/README.md) lets a practice evaluate a policy at the tool-call boundary. It is outside the baseline unless the written order expressly names the files and revision.
+
 ## Terms for a written order
 
 | Item | Proposed term |

@@ -1,0 +1,4 @@
+{
+  "policy_id": "local-artifact-digest-v1",
+  "allow": [{"tool": "artifact_digest", "artifact": "workflow"}]
+}
