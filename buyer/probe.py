@@ -12,7 +12,7 @@ from zipfile import ZipFile
 ROOT = Path(__file__).resolve().parents[1]
 REPO = 'https://github.com/cincinnatus-management/action-evidence-pilot'
 OFFER = 'https://cincinnatusmanagement.com/action-evidence-pilot/'
-BASE = '2e5e34a44b85a7123b58ee7878b7279355fd2c74'
+BASE = '7ceb2d25b723ed4dbe2731d33724e8f19036e94b'
 CHANNEL_BASE = '25bbc6a2c4d4fd1e6c2528429b244c6c4824fa25'
 HEAD = '81e62ef666f97a857d480fda7bbf414963d06673e7867fc1ba195f9f716b2038'
 CHANNEL = ('channel/README.md', 'channel/IMPLEMENTATION.md', 'channel/VERIFICATION.md')

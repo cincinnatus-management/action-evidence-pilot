@@ -20,7 +20,7 @@ The second command works offline. Exit 0 and `RESULT: PASS` mean every requested
 
 | Check | What a pass means |
 |---|---|
-| Source and offer files | The configured origin and checkout match the expected URL and supplied pin. The listed files match the bytes at evidence commit `2e5e34a44b85a7123b58ee7878b7279355fd2c74`. The [pilot description](../README.md) and [proposed channel terms](../channel/README.md) describe different purchases. The tracked file list at that baseline contains no separate order packet. |
+| Source and offer files | The configured origin and checkout match the expected URL and supplied pin. The listed files match the bytes at evidence commit `7ceb2d25b723ed4dbe2731d33724e8f19036e94b`. The [pilot description](../README.md) and [proposed channel terms](../channel/README.md) describe different purchases. The tracked file list at that baseline contains no separate order packet. |
 | Action records | The existing verifier recomputes the four record hashes, their links and the two referenced response hashes. Two records report HTTP 200 and two report blocked actions. No workflow is rerun. Matching hashes do not establish that the original record was truthful or complete. |
 | Key signature | The published verifier recovers the listed address from the signed message. That is evidence about the signature, not the signer's legal identity, current key custody, an authorized invoice, a balance or money received. |
 
