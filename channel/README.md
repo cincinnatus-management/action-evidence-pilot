@@ -8,6 +8,8 @@
 
 The [optional local MCP adapter](../adapters/mcp/README.md) lets a practice evaluate a policy at the tool-call boundary. It is outside the baseline unless the written order expressly names the files and revision.
 
+A prime that must pass continuing rights to a government customer needs a different instrument: see the [deployment-rights addendum](DEPLOYMENT-ADDENDUM.md). It is separate from this annual license.
+
 ## Terms for a written order
 
 | Item | Proposed term |
