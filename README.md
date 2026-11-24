@@ -2,7 +2,9 @@
 
 A small recorder from Cincinnatus Management LLC. It runs an AI agent's actions inside a written permission policy
 and writes one hash-chained record per action: what was asked and why, whether the policy allowed it, what it cost,
-what came back, and the SHA-256 of the evidence. Change one record afterwards and the check fails.
+what came back, and the SHA-256 of the evidence. The verifier checks that the saved records and referenced files match their recorded hashes.
+
+[Open the procurement replay pack](replay/README.md) to check the published sample offline and see what it does and does not demonstrate.
 
 Python 3 standard library only.
 

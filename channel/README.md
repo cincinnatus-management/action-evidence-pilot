@@ -4,6 +4,8 @@
 
 **Try before buying:** [run the public verifier and check the results](IMPLEMENTATION.md). The annual fee is for repeated client use and support, not for access to the public demonstration or ownership of a hashing technique. The [direct pilot](https://cincinnatusmanagement.com/action-evidence-pilot/) is a different purchase: USD 3,000 fixed for one workflow and one agent setup, ten business days from written scope. Installation and a pilot are not included in the annual fee; buying a pilot does not grant channel rights.
 
+[Open the procurement replay pack](../replay/README.md) to verify the bundled records offline and see where the demo falls short of the Canada guide’s scope.
+
 ## Terms for a written order
 
 | Item | Proposed term |
