@@ -12,6 +12,8 @@ what came back, and the SHA-256 of the evidence. The verifier checks that the sa
 
 The original four-action demo below uses the Python 3 standard library only.
 
+[Verify signed action receipts](adapters/action-receipt/README.md) from the recorder with a public key, or sign a new run. The optional adapter targets the bare JSON format of a specific Internet-Draft, not a SCITT transparency service.
+
     python action_evidence.py run --out my-run
     python action_evidence.py verify my-run
 
